@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 500vh; */
+}
+
+.container{
+    position:relative;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    min-height: 80vh;
+    border: rgb(212, 212, 212) solid 1px;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+.container-1{
+    margin-top: 12vh;
+}
+
+.cabecera{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+}
+
+.buscar{
+    max-height: 4vh;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(238, 238, 238);
+}
+
+.buscar input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin-left: 7px;
+}
+
+.lupa{
+    width: 120px;
+}
+.iconosCabecera{
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+}
+
+.cabecera svg{
+    max-height: 5vh;
+    width: 20px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+div[class*="fotoPerfil"]{
+    border: black solid 1px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    background-size: contain;
+}
+
+.fotoPerfil{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/500/442/354/outrun-vaporwave-hd-wallpaper-preview.jpg");
+}
+.fotoPerfil-2{
+    background-image: url("https://siaguanta.com/wp-content/uploads/2020/05/que-es-wallpaper1.jpg");
+}
+.fotoPerfil-3{
+    background-image: url("https://i.pinimg.com/originals/a7/fc/aa/a7fcaa43650adc892c401956a08dc32a.jpg");
+}
+.fotoPerfil-4{
+    background-image: url("https://www.xtrafondos.com/descargar.php?id=3482&resolucion=1280x720");
+}
+
+.textoFoto{
+    margin-left: 10px;
+    width: 77%;
+}
+.iconoPuntos{
+    position: relative;
+    height: 20px;
+    width: 20px;
+}
+
+.container > div[class*="foto"]{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foto{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/500/442/354/outrun-vaporwave-hd-wallpaper-preview.jpg");
+}
+.foto-2{
+    background: url("https://siaguanta.com/wp-content/uploads/2020/05/que-es-wallpaper1.jpg");
+}
+.foto-3{
+    background: url("https://i.pinimg.com/originals/a7/fc/aa/a7fcaa43650adc892c401956a08dc32a.jpg");
+}
+.foto-4{
+    background: url("https://www.xtrafondos.com/descargar.php?id=3482&resolucion=1280x720");
+}
+
+.barraIconos{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+}
+
+.icon{
+    margin:  3px;
+    
+}
+.iconosIzq{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 30px;
+    margin-left: 7px;
+}
+
+.iconoDere{
+    display: flex;
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
+
+.likes{
+    padding: 5px;
+}
+
+.comments{
+    padding: 5px;
+}
+
+.comentar{
+    display: flex;
+    border-top: 1px solid rgb(189, 189, 189);
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.comentar svg{
+    height: 30px;
+    margin-left: 7px;
+
+}
+
+.comentar input{
+    margin-left: 7px;
+    width: 100%;
+    outline: none;
+    border:none
+}
+
+.comentar input:focus{
+    outline: none;
+}
